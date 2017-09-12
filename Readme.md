@@ -1,5 +1,7 @@
 ## goredis
 
+**NOTE:** This is a fork of monnand branch but since it had issues downloading and updating I had to erase the go1 branch and to only leave master.
+
 **NOTE:** This is a modified version of [redis.go](https://github.com/hoisie/redis.go) by [hoise](https://github.com/hoisie) to support the latest version of go.
 
 **NOTE:** This project was called redis.go and renamed to *goredis* because of [this](https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/dnOK9j5Fvn4). (In short, we can no longer use package names end in .go.)
@@ -22,7 +24,7 @@ This library is stable and is used in production environments. However, some com
 
 ## Install
 
-    go get github.com/monnand/goredis
+    go get github.com/elico/goredis
 
 ## Examples
 
@@ -79,7 +81,7 @@ More examples coming soon. See `redis_test.go` for more usage examples.
 
 ## (Known) Projects using this package
 
-- [uniqush](http://github.com/monnand/uniqush)
+- [uniqush](http://github.com/elico/uniqush)
 
 
 ## Commands not supported yet
